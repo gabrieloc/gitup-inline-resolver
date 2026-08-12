@@ -4,7 +4,13 @@ A zsh helper that updates a feature branch from a main branch and provides an in
 
 ## install
 
-Add this to your `.zshrc`:
+Automatic install:
+
+./install.sh
+
+Manual install:
+
+Copy `gitup.zsh` to `$HOME/.config/gitup/gitup.zsh`, then add this to `.zshrc`:
 
 if [[ -f "$HOME/.config/gitup/gitup.zsh" ]]; then
   source "$HOME/.config/gitup/gitup.zsh"
